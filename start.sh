@@ -3,7 +3,7 @@
 # Arquivos na raiz
 touch setup.py
 touch {pyproject,settings,.secrets}.toml
-touch {requirements,MANIFEST}.in
+touch MANIFEST.in
 touch Dockerfile.dev docker-compose.yaml
 
 # Imagem do banco de dados

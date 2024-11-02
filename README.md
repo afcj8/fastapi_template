@@ -52,12 +52,12 @@ Para executar o projeto, siga os passos abaixo:
 
 2. Execute o contêiner::
    ```bash
-   docker run -d -p 8000:8000 api
+   docker run -p 8000:8000 api:latest
    ```
 
 3. Ou, através do docker compose:
      ```bash
-     docker-compose up
+     docker compose up
      ```
 
 4. Abra o navegador com a seguinte url:

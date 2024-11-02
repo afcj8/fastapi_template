@@ -42,3 +42,25 @@ Para executar o projeto, siga os passos abaixo:
    ```bash
    http://localhost:8000/docs
    ```  
+
+**Dockerização**
+
+1. Construa a imagem Docker:
+   ```bash
+   docker build -f Dockerfile.dev -t api:latest .
+   ```
+
+2. Execute o contêiner::
+   ```bash
+   docker run -d -p 8000:8000 api
+   ```
+
+3. Ou, através do docker compose:
+     ```bash
+     docker-compose up
+     ```
+
+4. Abra o navegador com a seguinte url:
+   ```bash
+   http://localhost:8000/docs
+   ```  

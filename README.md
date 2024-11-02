@@ -6,14 +6,14 @@ Este repositório oferece um template completo para iniciar rapidamente uma API 
 
 Para executar o projeto, siga os passos abaixo:
 
-**Local**
+**Ambiente Local**
 
 1. Clone o repositório:
    ```bash
    git clone https://github.com/afcj8/fastapi_template.git
    ```
 
-2. Na raiz do projeto crie um ambiente virtual:
+2. Na raiz do projeto, crie um ambiente virtual:
    ```bash
    python -m venv venv
    ```
@@ -33,34 +33,34 @@ Para executar o projeto, siga os passos abaixo:
    pip install -r requirements.txt
    ```
 
-5. Para executar localmente:
+5. Para executar o servidor localmente:
    ```bash
    fastapi dev api/app.py
    ```
 
-6. Abra o navegador com a seguinte url:
+6. Acesse a documentação da API no navegador utilizando a URL:
    ```bash
    http://localhost:8000/docs
    ```  
 
-**Dockerização**
+**Ambiente Docker**
 
 1. Construa a imagem Docker:
    ```bash
    docker build -f Dockerfile.dev -t api:latest .
    ```
 
-2. Execute o contêiner::
+2. Execute o contêiner:
    ```bash
    docker run -p 8000:8000 api:latest
    ```
 
-3. Ou, através do docker compose:
+3. Alternativamente, execute com Docker Compose
      ```bash
      docker compose up
      ```
 
-4. Abra o navegador com a seguinte url:
+4. Acesse a documentação da API no navegador utilizando a URL:
    ```bash
    http://localhost:8000/docs
-   ```  
+   ```

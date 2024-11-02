@@ -64,3 +64,8 @@ Para executar o projeto, siga os passos abaixo:
    ```bash
    http://localhost:8000/docs
    ```
+
+
+Após a execução, seja localmente ou via Docker, a tela da documentação da API será exibida, conforme a imagem a seguir:
+
+![image](https://github.com/user-attachments/assets/654806ec-611a-4a7c-a1a9-8581f4ba9438)

@@ -6,7 +6,7 @@ authors = [
 ]
 requires-python = ">=3.8"
 license = {text = "MIT"}
-dynamic = ["version", "readme", "dependencies"]
+dynamic = ["version", "dependencies"]
 
 [project.urls]
 Homepage = 'https://github.com/afcj8/fastapi_template'
